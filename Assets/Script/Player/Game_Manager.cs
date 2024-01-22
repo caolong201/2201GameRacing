@@ -12,6 +12,7 @@ public class Game_Manager : MonoBehaviour
     public int index;
     [SerializeField] CinemachineVirtualCamera virtualCamera;
     [SerializeField] Speedometer speedometer;
+    
     [SerializeField] private Camera minimapCamera;
     public CarUserControl gasPedal;
     public CarUserControl brakePedal;
